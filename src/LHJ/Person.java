@@ -36,6 +36,11 @@ public class Person {
 	// 잠자기
 	public void sleep() {
 		System.out.println("잠자기~~");
+		
 	}
-	
+	public Person(String Name) {
+		super();
+		this.name = Name;
+		
+	}
 }
